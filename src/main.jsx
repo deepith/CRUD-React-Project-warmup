@@ -9,7 +9,7 @@ import "react-toastify/dist/ReactToastify.css";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <Context>
-    <BrowserRouter>
+    <BrowserRouter basename={"/CRUD-React-Project-warmup/"}>
       <App />
       <ToastContainer />
     </BrowserRouter>
